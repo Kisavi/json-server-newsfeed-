@@ -1,0 +1,35 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "firstname": "Morty",
+            "lastname": "Baya",
+            "picture": "https://images.pexels.com/photos/6033759/pexels-photo-6033759.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        },
+        {
+            "id": 2,
+            "firstname": "Ricky",
+            "lastname": "Cheny",
+            "picture": "https://images.pexels.com/photos/6033759/pexels-photo-6033759.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        },
+        {
+            "id": 3,
+            "firstname": "Paul",
+            "lastname": "Biko",
+            "picture": "https://images.pexels.com/photos/6033759/pexels-photo-6033759.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        },
+        {
+            "id": 4,
+            "firstname": "Annah",
+            "lastname": "Jones",
+            "picture": "https://images.pexels.com/photos/9040795/pexels-photo-9040795.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        },
+        {
+            "id": 5,
+            "firstname": "Brenda",
+            "lastname": "Justina",
+            "picture": "https://images.pexels.com/photos/8303457/pexels-photo-8303457.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        }
+
+    ]
+}

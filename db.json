@@ -35,27 +35,57 @@
     "images": [
         {
             "id": 1,
+            "subject": "Morty",
+            "action": "uploaded",
+            "object": "image",
             "image": "https://images.pexels.com/photos/4306895/pexels-photo-4306895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "date": 12052022,
+            "likes": [],
+            "comments": [],
             "userId": 1
         },
         {
             "id": 2,
+            "subject": "Ricky",
+            "action": "uploaded",
+            "object": "image",
             "image": "https://images.pexels.com/photos/5125390/pexels-photo-5125390.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "date": 12032022,
+            "likes": [],
+            "comments": [],
             "userId": 2
         },
         {
             "id": 3,
+            "subject": "Paul",
+            "action": "uploaded",
+            "object": "image",
             "image": "https://images.pexels.com/photos/4003736/pexels-photo-4003736.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "date": 12052022,
+            "likes": [],
+            "comments": [],
             "userId": 3
         },
         {
             "id": 4,
+            "subject": "Annah",
+            "action": "uploaded",
+            "object": "image",
             "image": "https://images.pexels.com/photos/1038041/pexels-photo-1038041.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "date": 12062022,
+            "likes": [],
+            "comments": [],
             "userId": 4
         },
         {
             "id": 5,
+            "subject": "Brenda",
+            "action": "uploaded",
+            "object": "image",
             "image": "https://images.pexels.com/photos/38634/girl-ethiopian-child-portrait-38634.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "date": 12012022,
+            "likes": [],
+            "comments": [],
             "userId": 5
         }
     ]

@@ -38,8 +38,8 @@
             "subject": "Morty",
             "action": "uploaded",
             "object": "image",
-            "image": "https://images.pexels.com/photos/4306895/pexels-photo-4306895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "date": 12052022,
+            "image_url": "https://images.pexels.com/photos/4306895/pexels-photo-4306895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "date": 1657815451605,
             "likes": [],
             "comments": [],
             "userId": 1
@@ -48,9 +48,9 @@
             "id": 2,
             "subject": "Ricky",
             "action": "uploaded",
-            "object": "image",
-            "image": "https://images.pexels.com/photos/5125390/pexels-photo-5125390.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "date": 12032022,
+            "object": "profile picture",
+            "image_url": "https://images.pexels.com/photos/5125390/pexels-photo-5125390.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "date": 1657715451605,
             "likes": [],
             "comments": [],
             "userId": 2
@@ -60,8 +60,8 @@
             "subject": "Paul",
             "action": "uploaded",
             "object": "image",
-            "image": "https://images.pexels.com/photos/4003736/pexels-photo-4003736.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "date": 12052022,
+            "image_url": "https://images.pexels.com/photos/4003736/pexels-photo-4003736.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "date":1657615451605,
             "likes": [],
             "comments": [],
             "userId": 3
@@ -70,9 +70,9 @@
             "id": 4,
             "subject": "Annah",
             "action": "uploaded",
-            "object": "image",
-            "image": "https://images.pexels.com/photos/1038041/pexels-photo-1038041.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "date": 12062022,
+            "object": "profile picture",
+            "image_url": "https://images.pexels.com/photos/1038041/pexels-photo-1038041.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "date": 1657415451605,
             "likes": [],
             "comments": [],
             "userId": 4
@@ -82,8 +82,93 @@
             "subject": "Brenda",
             "action": "uploaded",
             "object": "image",
-            "image": "https://images.pexels.com/photos/38634/girl-ethiopian-child-portrait-38634.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "date": 12012022,
+            "image_url": "https://images.pexels.com/photos/38634/girl-ethiopian-child-portrait-38634.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "date": 1657115951605,
+            "likes": [],
+            "comments": [
+                {
+                    "commentor": "Annah",
+                    "comment": "I wonder what their skin care routine is like"
+                },
+                {
+                    "commentor": "Brenda",
+                    "comment": "Damn, skin sooo good"
+                }
+            ],
+            "userId": 5
+        }
+    ],
+    "comments":[
+        {
+            "id": 1,
+            "subject": "Annah",
+            "action": "commented on",
+            "pronoun": "Morty's",
+            "object": "profile picture",
+            "text": "You look dope",
+            "date": 1657415451605,
+            "likes": [],
+            "comments": [],
+            "userId": 4
+        },
+        {
+            "id": 2,
+            "subject": "Morty",
+            "action": "commented on",
+            "pronoun": "Annah's",
+            "object": "post",
+            "text": "Very adorable",
+            "date": 1657415451605,
+            "likes": [],
+            "comments": [],
+            "userId": 1
+        },
+        {
+            "id": 3,
+            "subject": "Paul",
+            "action": "commented on",
+            "pronoun": "Brenda's",
+            "object": "post",
+            "text": "It looks so beautiful",
+            "date": 1657415451605,
+            "likes": [],
+            "comments": [],
+            "userId": 3
+        }
+    ],
+    "likes":[
+        {
+            "id": 1,
+            "subject": "Paul",
+            "action": "liked",
+            "pronoun": "Brenda's",
+            "object": "post",
+            "text": "",
+            "date": 1657415451605,
+            "likes": [],
+            "comments": [],
+            "userId": 3
+        },
+        {
+            "id": 2,
+            "subject": "Ricky",
+            "action": "liked",
+            "pronoun": "Pauls's",
+            "object": "profile picture",
+            "text": "",
+            "date": 1657415451605,
+            "likes": [],
+            "comments": [],
+            "userId": 2
+        },
+        {
+            "id": 1,
+            "subject": "Brenda",
+            "action": "liked",
+            "pronoun": "Morty's",
+            "object": "post",
+            "text": "",
+            "date": 1657415451605,
             "likes": [],
             "comments": [],
             "userId": 5

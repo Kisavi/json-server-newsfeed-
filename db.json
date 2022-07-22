@@ -32,22 +32,36 @@
         }
 
     ],
-    "images": [
+    "feeds": [
         {
             "id": 1,
             "subject": "Morty",
             "action": "uploaded",
+            "pronoun": "an",
             "object": "image",
             "image_url": "https://images.pexels.com/photos/4306895/pexels-photo-4306895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "date": 1657815451605,
-            "likes": [],
+            "likes": ["Brenda","Ricky"],
             "comments": [],
             "userId": 1
         },
         {
             "id": 2,
+            "subject": "Annah",
+            "action": "commented on",
+            "pronoun": "Morty's",
+            "object": "post",
+            "message": "You look dope",
+            "date": 1657415451605,
+            "likes": [],
+            "comments": [],
+            "userId": 4
+        },
+        {
+            "id": 3,
             "subject": "Ricky",
-            "action": "uploaded",
+            "action": "updated",
+            "pronoun": "their",
             "object": "profile picture",
             "image_url": "https://images.pexels.com/photos/5125390/pexels-photo-5125390.jpeg?auto=compress&cs=tinysrgb&w=600",
             "date": 1657715451605,
@@ -56,35 +70,80 @@
             "userId": 2
         },
         {
-            "id": 3,
+            "id": 4,
+            "subject": "Paul",
+            "action": "liked",
+            "pronoun": "Brenda's",
+            "object": "post",
+            "context": "thumb",
+            "date": 1657415451605,
+            "userId": 3
+        },
+        {
+            "id": 5,
+            "subject": "Morty",
+            "action": "commented on",
+            "pronoun": "Annah's",
+            "object": "post",
+            "message": "Very adorable",
+            "likes": [],
+            "comments": [],
+            "date": 1657115451605,
+            "userId": 1
+        },
+        {
+            "id": 6,
             "subject": "Paul",
             "action": "uploaded",
+            "pronoun": "an",
             "object": "image",
             "image_url": "https://images.pexels.com/photos/4003736/pexels-photo-4003736.jpeg?auto=compress&cs=tinysrgb&w=600",
             "date":1657615451605,
-            "likes": [],
+            "likes": ["Brenda","Ricky"],
             "comments": [],
             "userId": 3
         },
         {
-            "id": 4,
+            "id": 7,
             "subject": "Annah",
-            "action": "uploaded",
+            "action": "updated",
+            "pronoun": "their",
             "object": "profile picture",
             "image_url": "https://images.pexels.com/photos/1038041/pexels-photo-1038041.jpeg?auto=compress&cs=tinysrgb&w=600",
             "date": 1657415451605,
-            "likes": [],
+            "likes": ["Brenda"],
             "comments": [],
             "userId": 4
         },
         {
-            "id": 5,
+            "id": 8,
+            "subject": "Ricky",
+            "action": "liked",
+            "pronoun": "Pauls's",
+            "object": "profile picture",
+            "context": "thumb",
+            "date": 1657415451605,
+            "userId": 2
+        },
+        {
+            "id": 9,
+            "subject": "Brenda",
+            "action": "liked",
+            "pronoun": "Morty's",
+            "object": "post",
+            "context": "thumb",
+            "date": 1657415451605,
+            "userId": 5
+        },
+        {
+            "id": 10,
             "subject": "Brenda",
             "action": "uploaded",
+            "pronoun": "an",
             "object": "image",
             "image_url": "https://images.pexels.com/photos/38634/girl-ethiopian-child-portrait-38634.jpeg?auto=compress&cs=tinysrgb&w=600",
             "date": 1657115951605,
-            "likes": [],
+            "likes": ["Paul","Morty","Brenda","Ricky"],
             "comments": [
                 {
                     "commentor": "Annah",
@@ -96,82 +155,18 @@
                 }
             ],
             "userId": 5
-        }
-    ],
-    "comments":[
-        {
-            "id": 1,
-            "subject": "Annah",
-            "action": "commented on",
-            "pronoun": "Morty's",
-            "object": "profile picture",
-            "text": "You look dope",
-            "date": 1657415451605,
-            "likes": [],
-            "comments": [],
-            "userId": 4
         },
         {
-            "id": 2,
-            "subject": "Morty",
-            "action": "commented on",
-            "pronoun": "Annah's",
-            "object": "post",
-            "text": "Very adorable",
-            "date": 1657415451605,
-            "likes": [],
-            "comments": [],
-            "userId": 1
-        },
-        {
-            "id": 3,
+            "id": 11,
             "subject": "Paul",
             "action": "commented on",
             "pronoun": "Brenda's",
             "object": "post",
-            "text": "It looks so beautiful",
-            "date": 1657415451605,
+            "message": "It looks so beautiful",
             "likes": [],
             "comments": [],
+            "date": 1657015451605,
             "userId": 3
-        }
-    ],
-    "likes":[
-        {
-            "id": 1,
-            "subject": "Paul",
-            "action": "liked",
-            "pronoun": "Brenda's",
-            "object": "post",
-            "text": "",
-            "date": 1657415451605,
-            "likes": [],
-            "comments": [],
-            "userId": 3
-        },
-        {
-            "id": 2,
-            "subject": "Ricky",
-            "action": "liked",
-            "pronoun": "Pauls's",
-            "object": "profile picture",
-            "text": "",
-            "date": 1657415451605,
-            "likes": [],
-            "comments": [],
-            "userId": 2
-        },
-        {
-            "id": 1,
-            "subject": "Brenda",
-            "action": "liked",
-            "pronoun": "Morty's",
-            "object": "post",
-            "text": "",
-            "date": 1657415451605,
-            "likes": [],
-            "comments": [],
-            "userId": 5
         }
     ]
 }

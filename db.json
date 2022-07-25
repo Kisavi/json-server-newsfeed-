@@ -1,172 +1,287 @@
 {
-    "users": [
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Morty",
+      "lastname": "Baya",
+      "avatar_url": "https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 2,
+      "firstname": "Ricky",
+      "lastname": "Cheny",
+      "avatar_url": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 3,
+      "firstname": "Paul",
+      "lastname": "Biko",
+      "avatar_url": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 4,
+      "firstname": "Annah",
+      "lastname": "Jones",
+      "avatar_url": "https://images.pexels.com/photos/9040795/pexels-photo-9040795.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+    },
+    {
+      "id": 5,
+      "firstname": "Brenda",
+      "lastname": "Justina",
+      "avatar_url": "https://images.pexels.com/photos/8303457/pexels-photo-8303457.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+    }
+  ],
+  "feeds": [
+    {
+      "subject": "Morty",
+      "action": "uploaded",
+      "pronoun": "an",
+      "object": "image",
+      "image_url": "https://images.pexels.com/photos/4306895/pexels-photo-4306895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "date": 1657815451605,
+      "likes": [
+        "Brenda",
+        "Morty",
+        "Ricky",
+        "Annah"
+      ],
+      "comments": [
         {
-            "id": 1,
-            "firstname": "Morty",
-            "lastname": "Baya",
-            "avatar_url": "https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=600"
+          "commentor": "Brenda",
+          "comment": "eefe"
         },
         {
-            "id": 2,
-            "firstname": "Ricky",
-            "lastname": "Cheny",
-            "avatar_url": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600"
+          "commentor": "Brenda",
+          "comment": "bbb"
         },
         {
-            "id": 3,
-            "firstname": "Paul",
-            "lastname": "Biko",
-            "avatar_url": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600"
+          "commentor": "Paul",
+          "comment": "I was there..."
         },
         {
-            "id": 4,
-            "firstname": "Annah",
-            "lastname": "Jones",
-            "avatar_url": "https://images.pexels.com/photos/9040795/pexels-photo-9040795.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-        },
-        {
-            "id": 5,
-            "firstname": "Brenda",
-            "lastname": "Justina",
-            "avatar_url": "https://images.pexels.com/photos/8303457/pexels-photo-8303457.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+          "commentor": "Paul",
+          "comment": "This concert was bomb"
         }
-
-    ],
-    "feeds": [
+      ],
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "subject": "Annah",
+      "action": "commented on",
+      "pronoun": "Morty's",
+      "object": "post",
+      "message": "You look dope",
+      "date": 1657415451605,
+      "likes": [],
+      "comments": [],
+      "userId": 4
+    },
+    {
+      "subject": "Ricky",
+      "action": "updated",
+      "pronoun": "their",
+      "object": "profile picture",
+      "image_url": "https://images.pexels.com/photos/5125390/pexels-photo-5125390.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "date": 1657715451605,
+      "likes": [
+        "Paul",
+        "Annah",
+        "Brenda"
+      ],
+      "comments": [
         {
-            "id": 1,
-            "subject": "Morty",
-            "action": "uploaded",
-            "pronoun": "an",
-            "object": "image",
-            "image_url": "https://images.pexels.com/photos/4306895/pexels-photo-4306895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "date": 1657815451605,
-            "likes": ["Brenda","Ricky"],
-            "comments": [],
-            "userId": 1
+          "commentor": "Morty",
+          "comment": "sdd"
         },
         {
-            "id": 2,
-            "subject": "Annah",
-            "action": "commented on",
-            "pronoun": "Morty's",
-            "object": "post",
-            "message": "You look dope",
-            "date": 1657415451605,
-            "likes": [],
-            "comments": [],
-            "userId": 4
+          "commentor": "Morty",
+          "comment": "eerfr"
         },
         {
-            "id": 3,
-            "subject": "Ricky",
-            "action": "updated",
-            "pronoun": "their",
-            "object": "profile picture",
-            "image_url": "https://images.pexels.com/photos/5125390/pexels-photo-5125390.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "date": 1657715451605,
-            "likes": [],
-            "comments": [],
-            "userId": 2
-        },
-        {
-            "id": 4,
-            "subject": "Paul",
-            "action": "liked",
-            "pronoun": "Brenda's",
-            "object": "post",
-            "context": "thumb",
-            "date": 1657415451605,
-            "userId": 3
-        },
-        {
-            "id": 5,
-            "subject": "Morty",
-            "action": "commented on",
-            "pronoun": "Annah's",
-            "object": "post",
-            "message": "Very adorable",
-            "likes": [],
-            "comments": [],
-            "date": 1657115451605,
-            "userId": 1
-        },
-        {
-            "id": 6,
-            "subject": "Paul",
-            "action": "uploaded",
-            "pronoun": "an",
-            "object": "image",
-            "image_url": "https://images.pexels.com/photos/4003736/pexels-photo-4003736.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "date":1657615451605,
-            "likes": ["Brenda","Ricky"],
-            "comments": [],
-            "userId": 3
-        },
-        {
-            "id": 7,
-            "subject": "Annah",
-            "action": "updated",
-            "pronoun": "their",
-            "object": "profile picture",
-            "image_url": "https://images.pexels.com/photos/1038041/pexels-photo-1038041.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "date": 1657415451605,
-            "likes": ["Brenda"],
-            "comments": [],
-            "userId": 4
-        },
-        {
-            "id": 8,
-            "subject": "Ricky",
-            "action": "liked",
-            "pronoun": "Pauls's",
-            "object": "profile picture",
-            "context": "thumb",
-            "date": 1657415451605,
-            "userId": 2
-        },
-        {
-            "id": 9,
-            "subject": "Brenda",
-            "action": "liked",
-            "pronoun": "Morty's",
-            "object": "post",
-            "context": "thumb",
-            "date": 1657415451605,
-            "userId": 5
-        },
-        {
-            "id": 10,
-            "subject": "Brenda",
-            "action": "uploaded",
-            "pronoun": "an",
-            "object": "image",
-            "image_url": "https://images.pexels.com/photos/38634/girl-ethiopian-child-portrait-38634.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "date": 1657115951605,
-            "likes": ["Paul","Morty","Brenda","Ricky"],
-            "comments": [
-                {
-                    "commentor": "Annah",
-                    "comment": "I wonder what their skin care routine is like"
-                },
-                {
-                    "commentor": "Brenda",
-                    "comment": "Damn, skin sooo good"
-                }
-            ],
-            "userId": 5
-        },
-        {
-            "id": 11,
-            "subject": "Paul",
-            "action": "commented on",
-            "pronoun": "Brenda's",
-            "object": "post",
-            "message": "It looks so beautiful",
-            "likes": [],
-            "comments": [],
-            "date": 1657015451605,
-            "userId": 3
+          "commentor": "Paul",
+          "comment": "Who is down we go for a safari?"
         }
-    ]
+      ],
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "subject": "Paul",
+      "action": "liked",
+      "pronoun": "Brenda's",
+      "object": "post",
+      "context": "thumb",
+      "date": 1657415451605,
+      "userId": 3
+    },
+    {
+      "id": 5,
+      "subject": "Morty",
+      "action": "commented on",
+      "pronoun": "Annah's",
+      "object": "post",
+      "message": "Very adorable",
+      "likes": [],
+      "comments": [],
+      "date": 1657115451605,
+      "userId": 1
+    },
+    {
+      "subject": "Paul",
+      "action": "uploaded",
+      "pronoun": "an",
+      "object": "image",
+      "image_url": "https://images.pexels.com/photos/4003736/pexels-photo-4003736.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "date": 1657615451605,
+      "likes": [
+        "Morty",
+        "Ricky"
+      ],
+      "comments": [],
+      "userId": 3,
+      "id": 6
+    },
+    {
+      "subject": "Annah",
+      "action": "updated",
+      "pronoun": "their",
+      "object": "profile picture",
+      "image_url": "https://images.pexels.com/photos/1038041/pexels-photo-1038041.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "date": 1657415451605,
+      "likes": [
+        "Brenda",
+        "Morty",
+        "Morty"
+      ],
+      "comments": [],
+      "userId": 4,
+      "id": 7
+    },
+    {
+      "id": 8,
+      "subject": "Ricky",
+      "action": "liked",
+      "pronoun": "Pauls's",
+      "object": "profile picture",
+      "context": "thumb",
+      "date": 1657415451605,
+      "userId": 2
+    },
+    {
+      "id": 9,
+      "subject": "Brenda",
+      "action": "liked",
+      "pronoun": "Morty's",
+      "object": "post",
+      "context": "thumb",
+      "date": 1657415451605,
+      "userId": 5
+    },
+    {
+      "id": 10,
+      "subject": "Brenda",
+      "action": "uploaded",
+      "pronoun": "an",
+      "object": "image",
+      "image_url": "https://images.pexels.com/photos/38634/girl-ethiopian-child-portrait-38634.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "date": 1657115951605,
+      "likes": [
+        "Paul"
+      ],
+      "comments": [
+        {
+          "commentor": "Annah",
+          "comment": "I wonder what their skin care routine is like"
+        },
+        {
+          "commentor": "Brenda",
+          "comment": "Damn, skin sooo good"
+        }
+      ],
+      "userId": 5
+    },
+    {
+      "id": 11,
+      "subject": "Paul",
+      "action": "commented on",
+      "pronoun": "Brenda's",
+      "object": "post",
+      "message": "It looks so beautiful",
+      "likes": [],
+      "comments": [],
+      "date": 1657015451605,
+      "userId": 3
+    },
+    {
+      "subject": "Brenda",
+      "action": "liked",
+      "pronoun": "Morty's",
+      "object": "image",
+      "context": "thumb",
+      "date": 1658579570696,
+      "userId": 5,
+      "id": 12
+    },
+    {
+      "subject": "Morty",
+      "action": "commented on",
+      "pronoun": "Ricky's",
+      "object": "profile picture",
+      "message": "Let's go to space Ricky",
+      "likes": [],
+      "comments": [],
+      "date": 1658688523577,
+      "userId": 1,
+      "id": 13
+    },
+    {
+      "subject": "Paul",
+      "action": "commented on",
+      "pronoun": "Morty's",
+      "object": "image",
+      "message": "I was there...",
+      "likes": [],
+      "comments": [],
+      "date": 1658695109213,
+      "userId": 3,
+      "id": 14
+    },
+    {
+      "subject": "Paul",
+      "action": "commented on",
+      "pronoun": "Ricky's",
+      "object": "profile picture",
+      "message": "Who is down we go for a safari?",
+      "likes": [],
+      "comments": [],
+      "date": 1658695289333,
+      "userId": 3,
+      "id": 15
+    },
+    {
+      "subject": "Ricky",
+      "action": "liked",
+      "pronoun": "Paul's",
+      "object": "image",
+      "context": "thumb",
+      "date": 1658695418875,
+      "userId": 2,
+      "id": 16
+    },
+    {
+      "subject": "Paul",
+      "action": "commented on",
+      "pronoun": "Morty's",
+      "object": "image",
+      "message": "This concert was bomb",
+      "likes": [],
+      "comments": [],
+      "date": 1658707780607,
+      "userId": 3,
+      "id": 17
+    }
+  ]
 }
